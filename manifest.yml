@@ -1,0 +1,7 @@
+---
+applications:
+- name: hello-pas
+  memory: 768M
+  instances: 1
+  random-route: false
+  path: target/hello-spring-cloud-0.0.1.BUILD-SNAPSHOT.jar
